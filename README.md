@@ -13,15 +13,13 @@ Tujuan dari proyek ini adalah untuk melakukan audit dan analisis performa dari m
 ## ❓Pertanyaan Riset
 
 ### 1. Estimation Layer
-later to be filled
+Berapakah estimasi probabilitas sebuah Pull Request (PR) pada repositori pandas berhasil di-merge, serta bagaimana tingkat ketidakpastian dari estimasi tersebut?
 
 ### 2. Inference/Testing Layer
-1. Berapa estimasi peluang Pull Request (PR) di-merge dan seberapa besar ketidakpastiannya?
-2. Berapa rata-rata issue masuk per hari beserta rentang ketidakpastiannya?
-3. Apakah rata-rata waktu penyelesaian issue berbeda dari nilai referensi yang ditentukan?
+Apakah rata-rata waktu penyelesaian issue berbeda dari nilai referensi yang ditentukan?
 
 ### 3. Simulation Layer
-later to be filled
+Berapakah probabilitas sebuah Issue yang dipilih secara acak membutuhkan waktu lebih dari 30 hari untuk diselesaikan?
 
 ## 📁 Struktur Proyek
 

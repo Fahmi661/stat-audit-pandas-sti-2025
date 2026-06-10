@@ -16,7 +16,9 @@
 
 | #   | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
 | --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
-| 1   | ...  | ...  | ...    | ...                     | ...                            |
+| 1   | GitHub API Data Extraction Setup | Gemini | "How to fetch 5000 closed issues and 5000 closed PRs from GitHub REST API for pandas-dev/pandas efficiently?" | Used to structure the initial request parameters (`per_page=100` and loop pagination) in the `ambil_data.py` script. | Very helpful for boilerplate API connection code, but needed adjustments to handle GitHub rate limits manually. |
+| 2   | Data Cleaning & Datetime Conversion | Gemini | "How to convert string timestamps into datetime object in Pandas and drop rows with missing close dates?" | Used to clean the raw API response and calculate the exact `close_time_days` metric for the EDA notebook. | Accurate and clean. It correctly suggested using `pd.to_datetime()` and `.dropna()`. |
+| 3   | Git and Repository Troubleshooting | Gemini | "Why am I getting 'src refspec main does not match any' and how to clean a nested duplicated folder structure inside VS Code?" | Used to safely move the final PDF report using PowerShell commands and resolve git branching issues (`git branch -M main`). | Critical lifesaver. It helped fix terminal path errors and prevented accidental deletion of core project files. |
 
 ### Member B — [Zaki Musthafa]
 

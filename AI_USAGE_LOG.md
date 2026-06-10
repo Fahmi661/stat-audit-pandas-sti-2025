@@ -6,7 +6,7 @@
 | ------ | ------------- | --------------- | ------------------- | --------------------------------- |
 | [Ahmad Fahmi Fadillah] | Data Engineer | Claude, Copilot | ~60%                | No                                |
 | [Zaki Musthafa]        | Estimation Analyst  | Claude, Copilot | ~60%                | No                                |
-| [Felisgi Mashinta]     | Inference Analyst   | Claude, Copilot | ~60%                | No                                |
+| [Felisgi Mashinta]     | Inference Analyst   | Gemini | ~60%                | No                                |
 | [M. Hikmal Mutaqin]    | Hypothesis Analyst  | Claude, Copilot | ~60%                | No                                |
 | [Faadhel Mubaarak]     | Computation Analyst | Copilot | ~64%                | No                                |
 
@@ -30,7 +30,8 @@
 
 | #   | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
 | --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
-| 1   | ...  | ...  | ...    | ...                     | ...                            |
+| 1   | Mathematical Formula Verification in Python | Gemini | "How to implement Wald Interval for Bernoulli trials and Poisson confidence interval using scipy.stats efficiently?" | Used to construct the mathematical functions ci_bernoulli and ci_poisson_from_lambda to ensure accurate calculation of the critical z-value. | Highly helpful in ensuring the statistical formula syntax was correct |
+| 2   | Visualisation Code Optimization | Gemini | "How to plot two subplots for Bernoulli and Poisson interval side by side using plt.subplots?" | Used as the foundation for creating the comparative visualization plots between the Frequentist and Bayesian methods at the end of the notebook. | The provided visualization code was well-structured, but it still required manual modifications for adjusting the axis labels and coloring. |
 
 ### Member D — [Muhammad Hikmal Mutaqin]
 

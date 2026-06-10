@@ -24,7 +24,7 @@
 
 | #   | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
 | --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
-| 1   | ...  | ...  | ...    | ...                     | ...                            |
+| 1   | Data estimation with additional visualization forms | Claude | Perform PR probability calculations on merge And calculate the average number of incoming issues per day, then create a visualization. Do this using Python. | Used to execute calculations from clean data that I receive from data engineers. | Perfect. Runs successfully and no errors occur. I make sure the tools I use change complicated parts so they are easy to understand. |
 
 ### Member C — [Felisgi Mashinta]
 
@@ -37,7 +37,7 @@
 
 | #   | Task | Tool | Prompt | How the output was used | How do you evaluate the output |
 | --- | ---- | ---- | ------ | ----------------------- | ------------------------------ |
-| 1   | ...  | ...  | ...    | ...                     | ...                            |
+| 1   | mathematical formulas calculate z-statistics and p-values in python | Gemini | mathematical formulas compute z-statistics and p-values into Python language | to find z-statistics and p-value | by equating with the actual mathematical formula |
 
 ### Member E — [Faadhel Mubaarak]
 
